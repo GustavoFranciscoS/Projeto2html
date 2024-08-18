@@ -1,52 +1,28 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
-}
-header{
-    padding: 18px 0;
-    background-color: #0ba10b;
-    color: rgb(235, 239, 245);
+    box-sizing: border-box;
 }
 
-header h1{
-    font-size: 35px;
-    font-weight: bolder;
-}
-
+header,
 section h2,
 section h3,
-section h4{
+form button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body, input, textarea{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #058f0c;
+    color: rgb(255, 255, 255);
+}
+
+header h1,
+section h2,
+section h3{
     font-weight: normal;
-}
-
-header nav li{
-    display: inline;
-    margin-left: 18px;
-    font-size: 14px;
-}
-
-header nav li a{
-    color: white;
-    text-decoration: none;
-}
-
-.container{
-    max-width: 1280px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-header .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-section .container{
-    align-items: flex-start;
-}
-
-.store-front{
-    margin-right: 32px;
 }
